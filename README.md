@@ -5,7 +5,7 @@ Python client for Docsbox
 ```python
 import dokky
 
-docsbox = dokky.Docsbox("http://localhost/api/v1/")
+docsbox = dokky.Docsbox(hostname="you.docsbox.hostname:66")
 
 with open("kittens.docx", "rb") as source:
     document = docsbox.proccess(source, formats=["pdf"])
