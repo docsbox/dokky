@@ -1,0 +1,13 @@
+sudo: required
+
+language: python
+services:
+  - docker
+
+before_install:
+  - git clone https://github.com/docsbox/docsbox.git && cd docsbox
+  - docker-compose build
+  - docker-compose up -d
+
+script:
+  - nosetests
