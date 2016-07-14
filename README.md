@@ -1,6 +1,12 @@
 # dokky [![Build Status](https://travis-ci.org/docsbox/dokky.svg?branch=master)](https://travis-ci.org/docsbox/dokky)
 Python client for Docsbox
 
+# Install
+
+```bash
+$ pip install dokky
+```
+
 # Usage
 ```python
 import dokky
