@@ -56,7 +56,7 @@ class Docsbox(object):
     def base_url(self):
         return "http://{0}/".format(self.hostname)
 
-    def proccess(self, fileobj, **options):
+    def process(self, fileobj, **options):
         """
         @fileobj: file-like object opened in 'rb' mode
         @options: dictionary with options that'll be passed to docsbox

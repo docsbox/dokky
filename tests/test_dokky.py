@@ -9,7 +9,7 @@ class DokkyTestCase(unittest.TestCase):
         self.docsbox = dokky.Docsbox()
 
     def test_basic(self):
-        document = self.docsbox.proccess(open("tests/samples/easychair.docx", "rb"), formats=["txt"])
+        document = self.docsbox.process(open("tests/samples/easychair.docx", "rb"), formats=["txt"])
         self.assertTrue(document.id)
         self.assertEqual(document.status, "queued")
         while True: # wait for result
