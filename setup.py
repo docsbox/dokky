@@ -6,7 +6,7 @@ setup(**{
   "url": "https://github.com/docsbox/dokky",
   "author": "Dmitry Veselov",
   "author_email": "d.a.veselov@yandex.ru",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Python client for Docsbox",
   "license": "MIT",
   "classifiers": (
